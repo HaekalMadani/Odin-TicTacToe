@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    min-height: 100vh;
+    background-color: rgb(44, 141, 64);
+}
+
+.player1Container{
+    justify-content: center;
+    text-align: center;
+}
+
+.player2Container{
+    justify-content: center;
+    text-align: center;
+}
+
+.tile{
+    background-color: white;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
